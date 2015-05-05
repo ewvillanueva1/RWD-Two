@@ -1,0 +1,91 @@
+/*RESETS*/
+
+html, body, header, section, article, div, ul, li, img, h1, h2, h3 {
+	padding: 0;
+	margin: 0 auto;
+	font-family: "Helvetica", sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: ;
+}
+
+.nav-list {
+	background-color: ;
+	width: 100%;
+	padding: 0.1em;
+	position: relative;
+	left: -0.1em;
+	display: none;
+}
+
+.nav-list li {
+	display: block;
+	float: none;
+	margin-bottom: ;
+	padding-bottom: 0;
+	padding-left: ;
+	padding-top: ;
+
+}
+
+.menu-icon {
+	padding-top:;
+	margin-left:;
+	cursor: pointer;
+	position: relative;
+}
+
+.page {
+	padding: 0.1em 1em;
+	max-width: 61.75em;
+}
+
+.page>h2 {
+	margin: 0.75em 0 0 0;
+	font-weight: 400;
+}
+
+header>h1 {
+	font-size: 3.5em;
+	margin: 0.5em auto;
+}
+
+.images {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+img{
+	max-width: 100%;
+}
+
+@media (min-width: 960px){
+	.images{
+		max-width: 61.75em;
+		padding: 0 1em;
+		margin: 0 auto;
+	}
+
+footer{
+	color: ;
+	font-weight: 300;
+	list-style-type: none;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+}
+
+.left-footer {
+	float: left;
+}
+
+.right-footer {
+	float:right;
+}
+
+/*CLEARFIX*/
+.clearfix {
+	overflow: auto;
+}

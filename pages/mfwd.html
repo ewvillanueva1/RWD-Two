@@ -1,0 +1,127 @@
+<html>
+<head>
+	<title>GDE 382 Web Design | MFWD</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<nav>
+		<div>
+			<img class="menu-icon" src="imgs/menu-icon.jpg">
+			<ul class="nav-list" style="display:block;">
+				<li>
+					<a class="" href="../index.html"></a>
+				</li>
+				<li>
+					<a class="" href="description.html"></a>
+				</li>
+				<li>
+					<a class="" href="lessons.html"></a>
+				</li>
+				<li>
+					<a class="" href="exercise.html"></a>
+				</li>
+				<li>
+					<a class="" href="mfwd.html"></a>
+				</li>
+				<li>
+					<a class="" href="rwd.html"></a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<div id="projects" class="fluid-images">
+		<header class="page">
+			<h1>
+				My First Web Design
+			</h1>
+		</header>
+	</div>
+
+	<article id="mfwd" class="images">
+		<img src="imgs/mfwd-1"> 
+		<p class="caption page">
+			Creating a website from design to publishing.  
+		</p>
+	</article>
+
+	<article id="mfwd" class="images">
+		<img src="imgs/mfwd-2"> 
+		<p class="caption page">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+		</p>
+	</article>
+
+	<article id="mfwd" class="images">
+		<img src="imgs/mfwd-3"> 
+		<p class="caption page">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+		</p>
+	</article>
+
+	<article id="mfwd" class="images">
+		<img src="imgs/mfwd-4"> 
+		<p class="caption page">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+		</p>
+	</article>
+
+		<footer>
+		<div>
+			<ul class="left-footer"> 
+				<li>Theme By Eric Villanueva</li>
+			</ul>		
+			<ul class="right-footer">
+				<li>Copyright 2015</li>
+			</ul>
+		</div>	
+	</footer>
+
+	<!-- H-Menu -->
+	<script type="text/javascript">
+		$(function() {
+			$nav = $('.nav-list');
+
+			$('.menu-icon').click(function(){
+				$nav.slideToggle();
+			});
+		});
+
+	</script>
+
+<!-- Scrolling Effect -->		
+	
+	<script type="text/javascript">
+		$(function(){
+			$('a.bank').click(function(){
+				$('html, body').animate({scrollTop:$('#bank').offset().top}, 1000);
+			});
+
+			$('a.tour').click(function(){
+				$('html, body').animate({scrollTop:$('#tour').offset().top}, 1000);
+			});
+
+			$('a.layouts').click(function(){
+				$('html, body').animate({scrollTop:$('#layouts').offset().top}, 1000);
+			});
+
+			$('a.neighborhood').click(function(){
+				$('html, body').animate({scrollTop:$('#neighborhood').offset().top}, 1000);
+			});
+
+			$('a.contact').click(function(){
+				$('html, body').animate({scrollTop:$('#contact').offset().top}, 1000);
+			});
+
+			$('a.rent').click(function(){
+				$('html, body').animate({scrollTop:$('#rent').offset().top}, 1000);
+			});
+
+			$('a.gallery').click(function(){
+				$('html, body').animate({scrollTop:$('#gallery').offset().top}, 1000);
+			});
+		});		
+	</script>
+	
+</body>
+</html>
