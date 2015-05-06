@@ -13,7 +13,7 @@ a {
 }
 
 .nav-list {
-	background-color: ;
+	background-color: #ff6666;
 	width: 100%;
 	padding: 0.1em;
 	position: relative;
@@ -24,16 +24,16 @@ a {
 .nav-list li {
 	/*display: block;*/
 	float: none;
-	margin-bottom: ;
+	margin-bottom: 20px;
 	padding-bottom: 0;
-	padding-left: ;
-	padding-top: ;
+	padding-left: 20px;
+	padding-top: 20px;
 
 }
 
 .menu-icon {
-	padding-top:;
-	margin-left:;
+	padding-top:0.5em;
+	margin-left:1.5em;
 	cursor: pointer;
 	position: relative;
 }
@@ -53,6 +53,22 @@ header>h1 {
 	margin: 0.5em auto;
 }
 
+.first-entry{
+	background:#E6E6E6;
+}
+
+.protocol {
+	color:#ff6666;
+	background-color: #333;
+	text-align:center;
+	padding: 1.5em 0px;
+}
+
+.second-entry {
+	background-color: #b3b3b3;
+
+}
+
 .images {
 	width: 100%;
 	padding: 0;
@@ -61,7 +77,13 @@ header>h1 {
 
 img{
 	max-width: 100%;
+	vertical-align: bottom;
 }
+
+a:hover{
+	opacity: 0.3;
+}
+
 
 @media (min-width: 960px){
 	.images{

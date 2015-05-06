@@ -41,7 +41,7 @@
 		</h1>
 	</header>
 
-	<article id="summary">
+	<article id="summary" class="first-entry">
 		<div class="page">
 			<h2>
 				Course Summary and Description  
@@ -56,15 +56,15 @@
 		</div>
 	</article>
 
-	<article>
+	<article class="protocol">
 		<div class="page">
 			<h3>
-				Layout on PS --> Code HTML --> Style with CSS --> Publish
+				<i>Layout on PS --> Code HTML --> Style with CSS --> Publish</i>
 			</h3>
 		</div>
 	</article>
 	
-	<article id="lessons">
+	<article id="lessons" class="second-entry">
 		<div class="page">
 			<h2>
 				Lessons Learned
@@ -90,7 +90,9 @@
 	</div>
 
 	<article id="html" class="images">
-		<img src="imgs/img-1"> 
+		<a href="pages/exercise.html">
+			<img src="imgs/img-1.png"> 
+		</a>	
 		<h2>
 			HTML Exercise
 		</h2>
@@ -100,7 +102,9 @@
 	</article>
 
 	<article id="mfwd" class="images">
-		<img src="imgs/mfwd-1"> 
+		<a href="pages/exercise.html">
+			<img src="imgs/mfwd-1.png"> 
+		</a>	
 		<h2>
 			My First Web Design 
 		</h2>
@@ -110,7 +114,9 @@
 	</article>
 
 	<article id="rwd" class="images">
-		<img src="imgs/rwd"> 
+		<a href="pages/rwd.html">
+			<img src="imgs/rwd.png"> 
+		</a>	
 		<h2>
 			Responsive Web Design
 		</h2>
@@ -146,27 +152,27 @@
 	
 	<script type="text/javascript">
 		$(function(){
-			$('a.bank').click(function(){
+			$('a.design').click(function(){
 				$('html, body').animate({scrollTop:$('#bank').offset().top}, 5000);
 			});
 
-			$('a.tour').click(function(){
+			$('a.summary').click(function(){
 				$('html, body').animate({scrollTop:$('#tour').offset().top}, 5000);
 			});
 
-			$('a.layouts').click(function(){
+			$('a.lessons').click(function(){
 				$('html, body').animate({scrollTop:$('#layouts').offset().top}, 5000);
 			});
 
-			$('a.neighborhood').click(function(){
+			$('a.projects').click(function(){
 				$('html, body').animate({scrollTop:$('#neighborhood').offset().top}, 5000);
 			});
 
-			$('a.contact').click(function(){
+			$('a.html').click(function(){
 				$('html, body').animate({scrollTop:$('#contact').offset().top}, 5000);
 			});
 
-			$('a.rent').click(function(){
+			$('a.mfwd').click(function(){
 				$('html, body').animate({scrollTop:$('#rent').offset().top}, 5000);
 			});
 
